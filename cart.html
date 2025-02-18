@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Sofia&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet"
+        />
+    <title>Document</title>
+</head>
+<body>
+    <nav >
+        <h1><span style="color: blue;">S</span><span>oleSphere</span></h1>
+        <div class="navbar">
+            <a href="contact.html" style="color: black;"><i class="fa-solid fa-phone"></i></a>
+            <a href=""><i class="fa-regular fa-user"></i></a>
+            <a href="wishlist.html"><i class="fa-regular fa-heart"></i></a>
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <a href="login.html" style="color: black;"><i class="fa-solid fa-right-to-bracket"></i></a>
+        </div>
+    </nav>
+    <div class="wishlist">
+        <div class="wishlist-title">
+          <h1>MY CART</h1>
+        </div>
+        <div class="wishlist-item">
+          <img src="images/product-8.jpg" alt="Product 1">
+          <div class="wishlist-item-info">
+            <h3>Quest 5 Running Shoes for <i class="fa-solid fa-trash-can"></i></h3>     
+            <h3> Men <p><span style="color: red;">$160.85</span></p></h3>
+            <p><span class="bold-text">Color: </span>Mercedes team Silver </p>
+            <p><span class="bold-text">Size: </span>Adult</p><br>
+                    <select id="quantity" onchange="quantity()">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            </div>         
+        </div>
+        <div class="wishlist-item2">
+              <div class="wishlist-item-info">
+              <h4>Subtotal <p>$160.85</p></h4>     
+              <h4>Grandtotal <p>$160.85</p></h4>
+              <a href="checkout.html"><button class="btn">checkout</button>  </a>                    
+              </div>         
+        </div>
+</body>
+</html>
