@@ -46,76 +46,53 @@ This repository contains a **simplified HTML + CSS version** for accessibility a
 
 ```
 SoleSphere/
-│── index.html        # Homepage
-│── products.html     # Product listings
-│── product.html      # Product details page
-│── cart.html         # Cart page (static demo)
-│── css/
-│    └── style.css    # Stylesheet
-│── images/           # Assets (shoes, icons, banners)
-└── README.md         # Documentation
+│── .vscode/                # Editor configuration
+│── aaa/                    # Supporting assets/config (if any)
+│── Main.html               # Landing page
+│── products.html           # Product listings
+│── cart.html               # Shopping cart
+│── checkout.html           # Checkout page
+│── contact.html            # Contact page
+│── login.html              # Login / Authentication page
+│── login.js                # Login logic (JavaScript)
+│── login.ts                # Login logic (TypeScript version)
+│── banner.png              # Banner image for homepage
+│── chstyle.css             # Cart styling
+│── constyle.css            # Contact page styling
+│── cstyle.css              # Checkout page styling
+│── lstyle.css              # Login page styling
+│── README.md               # Project documentation (this file)
 ```
 
 ---
 
-## ⚡ Getting Started
+## 🛠️ Tech Stack
+- **Frontend:** HTML, CSS
+- **Scripting:** JavaScript, TypeScript
+- **Backend (extendable):** Node.js
+- **Version Control:** Git & GitHub
 
-### View Static Version
+
+
+## 🔧 Setup Instructions
+
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/solesphere.git
-   cd solesphere
+   git clone https://github.com/rohith0224/HTML_CSS_Typescript_Capstone-Project.git
    ```
-2. Open `index.html` in your browser.
-
-### Run Full React + Node.js Version
-*(Available in full implementation repo)*  
-```bash
-# Backend
-cd backend
-npm install
-npm run dev
-
-# Frontend
-cd frontend
-npm install
-npm run dev
-```
-
-- Frontend → `http://localhost:3000`  
-- Backend → `http://localhost:5000`  
+2. Navigate into the project folder:
+   ```bash
+   cd HTML_CSS_Typescript_Capstone-Project
+   ```
+3. Open `Main.html` in your browser to preview the website.  
 
 ---
 
-## 📸 Screenshots
-
-*(Insert homepage, product page, and cart screenshots here)*  
-
----
-
-## 🧪 Testing (Full Version)
-```bash
-npm run test
-```
-- Unit tests (Jest)  
-- Integration tests (Supertest)  
-- Component tests (React Testing Library)  
+## 🎯 Future Improvements
+- Full backend with product API integration
+- Database for storing users and orders
+- Payment gateway integration
+- React-based deployment for dynamic features
 
 ---
-
-## 🚀 Deployment
-- Static version → GitHub Pages / Netlify  
-- Full version →  
-  - Frontend: Vercel / Netlify  
-  - Backend: Render / Heroku / AWS  
-
----
-
-## 🤝 Contributing
-1. Fork this repo  
-2. Create a feature branch (`git checkout -b feature-name`)  
-3. Commit changes (`git commit -m "Added feature"`)  
-4. Push to branch (`git push origin feature-name`)  
-5. Open a Pull Request  
-
 
